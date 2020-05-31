@@ -132,6 +132,9 @@ body {
         font-size: 3.0rem;
         line-height: 1.15em;
     }
+    .head-txt2 p {
+        font-size: 1.45rem;
+    }
     .head-gif {
         display: block;
         padding-left: 0px;
