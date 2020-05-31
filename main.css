@@ -131,9 +131,11 @@ body {
     .head-txt2 h1 {
         font-size: 3.0rem;
         line-height: 1.15em;
+        text-align: justify;
     }
     .head-txt2 p {
-        font-size: 1.45rem;
+        font-size: 1.40rem;
+        text-align: justify;
     }
     .head-gif {
         display: block;
