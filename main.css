@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    width: 100%;
 }
 
 .logo-img {
@@ -109,4 +110,22 @@ body {
     transition: background-color 0.2s linear, color 0.2s linear;
 }
 
-@media only screen and (max-width: 600px) {}
+.head-txt2 {
+    display: none;
+}
+
+@media only screen and (max-width: 750px) {
+    .head-txt {
+        display: none;
+    }
+    .head-txt2 {
+        display: block;
+    }
+    .head-gif {
+        display: block;
+        padding-left: 0px;
+    }
+    .head-gif img {
+        width: 350px;
+    }
+}
