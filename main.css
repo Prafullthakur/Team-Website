@@ -124,12 +124,13 @@ body {
     }
     .head-txt2 {
         display: block;
-        margin-top: 50px;
+        margin-top: 70px;
         padding-left: 5%;
         padding-right: 5%;
     }
     .head-txt2 h1 {
         font-size: 3.0rem;
+        line-height: 1.15em;
     }
     .head-gif {
         display: block;
