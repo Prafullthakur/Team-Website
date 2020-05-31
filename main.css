@@ -139,7 +139,7 @@ body {
     }
     .head-gif {
         display: block;
-        padding-left: 0px;
+        padding-left: -20px;
     }
     .head-gif img {
         width: 300px;
