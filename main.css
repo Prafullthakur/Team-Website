@@ -117,7 +117,7 @@ body {
 @media only screen and (max-width: 750px) {
     .logo-img {
         margin-left: 32px;
-        margin-top: 19px;
+        margin-top: 15px;
     }
     .head-txt {
         display: none;
@@ -131,6 +131,6 @@ body {
     }
     .head-gif img {
         width: 280px;
-        height: 150px;
+        height: 200px;
     }
 }
