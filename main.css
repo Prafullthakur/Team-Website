@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+}
+
+.logo-img {
+    width: 120px;
+    margin-left: 52px;
+    margin-top: 22px;
+}
+
+.head {
+    flex-direction: row;
+    text-align: center;
+}
+
+.head-txt {
+    width: 350px;
+    display: inline-block;
+    padding-right: 38px;
+}
+
+.head-txt h1 {
+    font-size: 3.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #333333;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 1.15em;
+    text-transform: none;
+    text-align: justify;
+}
+
+.head-txt p {
+    margin-top: 1.5rem;
+    color: #757575;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.4em;
+    text-transform: none;
+    text-align: justify;
+}
+
+.head-gif {
+    display: inline-block;
+    padding-left: 38px;
+}
+
+.head-gif img {
+    width: 450px;
+    height: 350px;
+    margin-bottom: -50px;
+}
+
+.primary {
+    background-color: #2bb24c;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 1rem;
+    margin-top: 0;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    min-width: 50px;
+    box-sizing: border-box;
+    letter-spacing: 0;
+    box-shadow: none;
+    outline: 0;
+    transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+.secondry {
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: #757575;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 1rem;
+    margin-top: 0;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    min-width: 50px;
+    box-sizing: border-box;
+    letter-spacing: 0;
+    box-shadow: none;
+    outline: 0;
+    transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+@media only screen and (max-width: 600px) {}
