@@ -147,4 +147,7 @@ body {
         height: 290px;
         margin-bottom: -20px;
     }
+    .primary {
+        display: block;
+    }
 }
