@@ -147,6 +147,9 @@ body {
         height: 290px;
         margin-bottom: -20px;
     }
+    .head-button {
+        margin-top: 10px;
+    }
     .primary {
         display: block;
         width: 100%;
@@ -154,7 +157,7 @@ body {
     .secondry {
         display: block;
         width: 100%;
-        margin-top: 5px;
+        margin-top: 15px;
         ;
     }
 }
