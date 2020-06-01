@@ -54,7 +54,6 @@ body {
 .head-gif img {
     width: 450px;
     height: 350px;
-    margin-bottom: -50px;
 }
 
 .primary {
@@ -186,7 +185,6 @@ body {
     }
     .thanks img {
         width: 100px;
-        margin-bottom: -25px;
         margin-left: -20px;
     }
 }
