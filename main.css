@@ -148,7 +148,6 @@ body {
         -webkit-text-fill-color: transparent;
     }
     .head-gif {
-        display: block;
         padding-left: 0px;
         margin-top: 0%;
     }
@@ -190,5 +189,6 @@ body {
     .thanks img {
         width: 100px;
         margin-left: -20px;
+        margin-bottom: -5%;
     }
 }
