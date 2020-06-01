@@ -172,7 +172,7 @@ body {
     .thanks {
         display: block;
         text-align: center;
-        padding-left: 6%;
+        margin-left: 9%;
     }
     .thanks p {
         color: #757575;
@@ -183,6 +183,7 @@ body {
         text-transform: none;
         text-align: justify;
         display: inline;
+        padding-left: 8%;
     }
     .thanks img {
         width: 100px;
