@@ -158,7 +158,7 @@ body {
         margin-bottom: 0px;
     }
     .head-button {
-        margin-top: 10px;
+        margin-top: 5%;
     }
     .primary {
         display: block;
@@ -167,7 +167,7 @@ body {
     .secondry {
         display: block;
         width: 100%;
-        margin-top: 5px;
+        margin-top: 10px;
         margin-bottom: 5px;
     }
     .thanks {
