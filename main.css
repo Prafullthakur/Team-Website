@@ -121,6 +121,8 @@ body {
 @media only screen and (max-width: 750px) {
     .container {
         overflow: hidden;
+        width: 100vw;
+        height: 100vh;
     }
     .logo-img {
         width: 90px;
