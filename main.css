@@ -140,8 +140,17 @@ body {
         width: 30px;
         margin-top: 7%;
         margin-right: 5%;
-        border: 1.5px solid black;
+        float: right;
+    }
+    .night-mode {
+        display: inline-block;
+        padding: 1px;
+        height: 30px;
+        width: 30px;
+        margin-top: 7%;
+        margin-right: 5%;
         border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
         float: right;
     }
     .head-txt {
