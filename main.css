@@ -130,12 +130,13 @@ body {
         padding-right: 5%;
     }
     .head-txt2 h1 {
-        color: white;
         font-size: 2.5rem;
         line-height: 1.15em;
         text-align: justify;
         font-family: arial;
-        text-shadow: -1px 1px 0 skyblue, 1px 1px 0 skyblue, 1px -1px 0 skyblue, -1px -1px 0 skyblue;
+        background: linear-gradient(to top, #ffe838, #fd57bf);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     .head-txt2 p {
         font-size: 1.20rem;
