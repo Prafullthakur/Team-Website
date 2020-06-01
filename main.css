@@ -135,24 +135,21 @@ body {
     }
     .night {
         display: inline-block;
-        padding: 4px;
+        height: 30px;
+        width: 30px;
+        margin-top: 7%;
+        margin-right: 5%;
+        float: right;
+    }
+    .night-mode {
+        display: inline-block;
+        padding: 3px;
         height: 30px;
         width: 30px;
         margin-top: 7%;
         margin-right: 5%;
         background: rgba(0, 0, 0, 0.18);
         border-radius: 50%;
-        float: right;
-    }
-    .night-mode {
-        display: inline-block;
-        padding: 1px;
-        height: 30px;
-        width: 30px;
-        margin-top: 7%;
-        margin-right: 5%;
-        border-radius: 50%;
-        background-color: red;
         float: right;
     }
     .head-txt {
