@@ -172,6 +172,8 @@ body {
     .thanks {
         display: block;
         text-align: center;
+        padding-left: 10px;
+        ;
     }
     .thanks p {
         color: #757575;
