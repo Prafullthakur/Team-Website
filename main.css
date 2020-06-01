@@ -199,4 +199,8 @@ body {
         padding-left: 0px;
         margin-top: 0%;
     }
+    .head-gif img {
+        height: 50%;
+        width: 50%;
+    }
 }
