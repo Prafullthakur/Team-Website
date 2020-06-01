@@ -233,10 +233,10 @@ body {
         margin-bottom: -6%;
     }
     .page1 {
-        display: none;
+        display: inline;
     }
     .page2 {
-        display: inline;
+        display: none;
     }
     .page2 .page2-head h1 {
         display: none;
