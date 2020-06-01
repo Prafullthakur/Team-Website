@@ -121,7 +121,14 @@ body {
     display: none;
 }
 
+.page2 {
+    display: none;
+}
+
 @media only screen and (max-width: 750px) {
+    .container {
+        height: 100vh;
+    }
     .logo-img {
         width: 90px;
         margin-left: 5%;
@@ -228,7 +235,9 @@ body {
     .page1 {
         display: none;
     }
-    .page2 {}
+    .page2 {
+        display: inline;
+    }
     .page2 .page2-head h1 {
         display: none;
         margin-top: 0px;
