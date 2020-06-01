@@ -195,7 +195,7 @@ body {
 }
 
 @media only screen and (max-height: 600px) {
-    body {
-        display: none;
+    .head-gif {
+        padding-left: 0px;
     }
 }
