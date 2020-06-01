@@ -241,10 +241,10 @@ body {
         letter-spacing: -0.025em;
     }
     .one {
-        margin-left: 4%;
+        margin-left: 8%;
     }
     .three {
-        margin-right: 4%;
+        margin-right: 8%;
     }
     .slider {
         display: flex;
