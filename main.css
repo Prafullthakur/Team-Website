@@ -135,7 +135,7 @@ body {
         line-height: 1.15em;
         text-align: justify;
         font-family: arial;
-        border: 3px solid skyblue;
+        text-shadow: -1px 1px 0 skyblue, 1px 1px 0 skyblue, 1px -1px 0 skyblue, -1px -1px 0 skyblue;
     }
     .head-txt2 p {
         font-size: 1.20rem;
