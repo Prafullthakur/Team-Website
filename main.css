@@ -225,11 +225,12 @@ body {
         margin-left: -20px;
         margin-bottom: -6%;
     }
-    .page1 {}
-    .page2 {
+    .page1 {
         display: none;
     }
+    .page2 {}
     .page2 .page2-head h1 {
+        display: none;
         margin-top: 0px;
         margin-bottom: 0px;
         line-height: 1;
@@ -238,6 +239,12 @@ body {
         background-color: linear-gradient(to top, #ffe838, #fd57bf);
         font-size: 2rem;
         letter-spacing: -0.025em;
+    }
+    .slider {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 3%;
     }
     .slider1 {
         display: inline;
@@ -249,14 +256,13 @@ body {
         display: inline;
     }
     .slider1 img {
-        width: 22%;
+        width: 62%;
     }
-    .slider1-a {}
     .slider2 img {
-        width: 22%;
+        width: 62%;
     }
     .slider3 img {
-        width: 22%;
+        width: 62%;
     }
 }
 
