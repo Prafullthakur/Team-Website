@@ -240,6 +240,12 @@ body {
         font-size: 2rem;
         letter-spacing: -0.025em;
     }
+    .one {
+        margin-left: 4%;
+    }
+    .three {
+        margin-right: 4%;
+    }
     .slider {
         display: flex;
         text-align: center;
