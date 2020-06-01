@@ -122,7 +122,7 @@ body {
     .logo-img {
         width: 105px;
         margin-left: 5%;
-        margin-top: 15px;
+        margin-top: 0px;
     }
     .head-txt {
         display: none;
@@ -157,10 +157,10 @@ body {
     .head-gif img {
         width: 340px;
         height: 290px;
-        margin-bottom: -20px;
+        margin-bottom: -40px;
     }
     .head-button {
-        margin-top: 40px;
+        margin-top: 10px;
     }
     .primary {
         display: block;
@@ -169,15 +169,15 @@ body {
     .secondry {
         display: block;
         width: 100%;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     .thanks {
-        margin-top: 20px;
+        margin-top: 5px;
         display: block;
         text-align: center;
         margin-left: 9%;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
     }
     .thanks p {
         color: #757575;
