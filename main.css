@@ -194,7 +194,7 @@ body {
     }
 }
 
-@media only screen and (max-height: 580px) {
+@media only screen and (max-height: 600px) {
     body {
         display: none;
     }
