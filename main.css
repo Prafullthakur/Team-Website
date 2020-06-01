@@ -9,6 +9,10 @@ body {
     margin-top: 22px;
 }
 
+.night {
+    display: none;
+}
+
 .head {
     flex-direction: row;
     text-align: center;
@@ -127,6 +131,15 @@ body {
         width: 90px;
         margin-left: 5%;
         margin-top: 0%;
+        display: inline-block;
+    }
+    .night {
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        margin-top: 6%;
+        margin-right: 4%;
+        float: right;
     }
     .head-txt {
         display: none;
