@@ -135,6 +135,7 @@ body {
     }
     .night {
         display: inline-block;
+        padding: 3px;
         height: 30px;
         width: 30px;
         margin-top: 7%;

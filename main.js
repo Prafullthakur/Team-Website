@@ -1,8 +1,8 @@
 //document.addEventListener('contextmenu', event => event.preventDefault());
 var night = document.querySelector('.night');
+var count = 0;
 
 function myfunction() {
-    night.className = "night-mode";
-
+    count++;
+    if (count % 2 != 0) { night.className = "night-mode"; } else { night.className = "night"; }
 }
-night.onclick = myfunction();
