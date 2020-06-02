@@ -508,7 +508,7 @@ body {
         height: 340px;
         padding: 9%;
     }
-    .portfolio1 p {
+    .portfolio1 .port-txt {
         color: #2bb24c;
         font-size: 0.815rem;
         font-weight: 700;
@@ -528,12 +528,21 @@ body {
         height: 340px;
         padding: 9%;
     }
-    .portfolio2 p {
+    .portfolio2 .port-txt {
         color: #2bb24c;
         font-size: 0.815rem;
         font-weight: 700;
         font-family: sans-serif;
         text-transform: uppercase;
+    }
+    .port {
+        margin-top: 10%;
+        text-transform: none;
+        color: #333;
+        font-size: 0.9rem;
+        font-weight: 200;
+        line-height: 1.7rem;
+        font-family: sans-serif;
     }
     .portfolio2 h1 {
         font-family: 'Dancing Script', cursive;
@@ -547,7 +556,7 @@ body {
         height: 340px;
         padding: 9%;
     }
-    .pubgzone p {
+    .pubgzone .port-txt {
         color: #2bb24c;
         font-size: 0.815rem;
         font-weight: 700;
