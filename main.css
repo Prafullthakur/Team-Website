@@ -239,16 +239,54 @@ body {
     .page2 {
         display: inline;
     }
+    .page2-head {
+        width: 70%;
+        text-align: center;
+        margin-left: 13%;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
     .page2 .page2-head h1 {
-        display: none;
         margin-top: 0px;
         margin-bottom: 0px;
         line-height: 1;
-        font-weight: 700;
+        font-weight: 400;
         text-align: center;
+        font-family: 'pacifico';
         background-color: linear-gradient(to top, #ffe838, #fd57bf);
-        font-size: 2rem;
+        font-size: 2.9rem;
         letter-spacing: -0.025em;
+    }
+    .page2 .page2-head p {
+        margin-top: 20px;
+        text-align: center;
+        font-weight: normal;
+        text-align: justify;
+        font-size: 18.5px;
+        box-sizing: border-box;
+        color: rgba(0, 0, 0, 0.6);
+        line-height: 1.5;
+        margin-left: 8%;
+    }
+    .page2 .page2-head button {
+        user-select: none;
+        transition: background 120ms ease-in 0s;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        height: 36px;
+        border-radius: 3px;
+        color: white;
+        font-size: 14px;
+        line-height: 1;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-weight: 500;
+        background: rgb(225, 98, 89);
+        border: 1px solid rgb(190, 86, 67);
+        box-shadow: rgba(15, 15, 15, 0.1) 0px 1px 2px;
     }
     .one {
         margin-left: 8%;
@@ -289,7 +327,7 @@ body {
         font-family: inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     }
     .achange {
-        border-bottom: 1px solid red;
+        border-bottom: 1.5px solid black;
         padding: 0 0 3px;
         text-decoration: none;
         color: black;
