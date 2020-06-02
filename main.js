@@ -1,4 +1,4 @@
-//document.addEventListener('contextmenu', event => event.preventDefault());
+document.addEventListener('contextmenu', event => event.preventDefault());
 var night = document.querySelector('.night');
 var container = document.querySelector('.container');
 var a1 = document.querySelector('.achange');
