@@ -540,7 +540,7 @@ body {
         text-transform: none;
         color: #333;
         font-size: 1rem;
-        font-weight: 200;
+        font-weight: 400;
         line-height: 1.7rem;
         font-family: sans-serif;
     }
@@ -578,6 +578,11 @@ body {
     }
     .port-last-txt {
         display: inline-block;
+        color: #333333;
+        font-family: arial;
+        margin-left: 0.5rem;
+        font-weight: 400;
+        font-size: 0.9rem;
     }
     .port-last-txt p {}
 }
