@@ -476,7 +476,7 @@ body {
         text-transform: none;
     }
     .work {
-        margin-top: 15%;
+        margin-top: 25%;
         padding-left: 8%;
         padding-right: 8%;
         text-align: center;
@@ -488,6 +488,7 @@ body {
         font-size: 1.5rem;
         line-height: 1rem;
         letter-spacing: 0.05rem;
+        font-family: arial;
     }
     .work p {
         color: #333333;
