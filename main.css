@@ -405,6 +405,7 @@ body {
     }
     .dots-content {
         width: 70%;
+        margin-top: 30%;
         margin-left: 15%;
         margin-bottom: 10%;
     }
@@ -458,7 +459,7 @@ body {
         font-family: sans-serif;
     }
     .horizontal-heading {
-        margin-top: 20%;
+        margin-top: 30%;
         width: 75%;
         margin-left: 11%;
     }
@@ -476,7 +477,7 @@ body {
         text-transform: none;
     }
     .work {
-        margin-top: 25%;
+        margin-top: 30%;
         padding-left: 8%;
         padding-right: 8%;
         text-align: center;
