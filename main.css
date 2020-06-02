@@ -352,6 +352,7 @@ body {
     }
     .horizontal-scroll {
         margin-top: 5%;
+        margin-bottom: 5%;
         background-color: white;
         overflow: auto;
         white-space: nowrap;
@@ -473,6 +474,26 @@ body {
         line-height: 1.25em;
         margin-bottom: 1.5rem;
         text-transform: none;
+    }
+    .work {
+        margin-top: 15%;
+        padding-left: 8%;
+        padding-right: 8%;
+        text-align: center;
+    }
+    .work h2 {
+        color: black;
+        margin-top: 2%;
+        margin-bottom: 0.5%;
+        font-size: 1.5rem;
+        line-height: 1rem;
+        letter-spacing: 0.05rem;
+    }
+    .work p {
+        color: #333333;
+        font-size: 1.2rem;
+        letter-spacing: 0.03;
+        font-family: sans-serif;
     }
 }
 
