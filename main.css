@@ -585,8 +585,8 @@ body {
         margin-left: 0.5rem;
         font-weight: 400;
         font-size: 0.9rem;
+        color: rgba(0, 0, 0, 0.5);
     }
-    .port-last-txt p {}
 }
 
 @media only screen and (max-height: 600px) {
