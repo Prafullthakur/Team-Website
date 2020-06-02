@@ -273,6 +273,7 @@ body {
         transition: background 120ms ease-in 0s;
         cursor: pointer;
         display: inline-flex;
+        margin-left: 2%;
         align-items: center;
         justify-content: center;
         white-space: nowrap;
