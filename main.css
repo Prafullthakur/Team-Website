@@ -368,7 +368,7 @@ body {
     .scroll-img3 {
         width: 30%;
         height: 30%;
-        margin-bottom: 7%;
+        margin-bottom: 5%;
         margin-left: 5%;
     }
     .scroll-img4 {
@@ -485,7 +485,7 @@ body {
         color: black;
         margin-top: 2%;
         margin-bottom: 0.5%;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         line-height: 1rem;
         letter-spacing: 0.05rem;
         font-family: arial;
@@ -495,6 +495,52 @@ body {
         font-size: 1.2rem;
         letter-spacing: 0.03;
         font-family: sans-serif;
+    }
+    .Projects {
+        background: rgba(0, 0, 0, 0.05);
+        padding: 8%;
+        width: 100%;
+    }
+    .portfolio1 {
+        background: white;
+        height: 400px;
+    }
+    .portfolio1 p {
+        color: #2bb24c;
+        font-size: 1rem;
+        font-weight: 700;
+        padding-top: 4%;
+        padding-left: 4%;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+    }
+    .portfolio2 {
+        margin-top: 8%;
+        background: white;
+        height: 400px;
+    }
+    .portfolio2 p {
+        color: #2bb24c;
+        font-size: 1rem;
+        font-weight: 700;
+        padding-top: 4%;
+        padding-left: 4%;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+    }
+    .pubgzone {
+        margin-top: 8%;
+        background: white;
+        height: 400px;
+    }
+    .pubgzone p {
+        color: #2bb24c;
+        font-size: 1rem;
+        font-weight: 700;
+        padding-top: 4%;
+        padding-left: 4%;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
     }
 }
 
