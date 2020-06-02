@@ -498,54 +498,65 @@ body {
     }
     .Projects {
         background: rgba(0, 0, 0, 0.05);
+        padding-top: 12%;
         padding-left: 7%;
         padding-right: 7%;
-        padding-top: 12%;
-        padding-bottom: 10%;
+        padding-bottom: 12%;
     }
     .portfolio1 {
         background: white;
         height: 340px;
+        padding: 9%;
     }
     .portfolio1 p {
         color: #2bb24c;
         font-size: 0.815rem;
         font-weight: 700;
-        padding-top: 11%;
-        padding-left: 6%;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
         font-family: sans-serif;
         text-transform: uppercase;
+    }
+    .portfolio1 h1 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+        padding-top: 4%;
+        padding-left: 7.5%;
     }
     .portfolio2 {
         margin-top: 8%;
         background: white;
         height: 340px;
+        padding: 9%;
     }
     .portfolio2 p {
         color: #2bb24c;
         font-size: 0.815rem;
         font-weight: 700;
-        padding-top: 11%;
-        padding-left: 6%;
-        margin-bottom: 1.5rem;
         font-family: sans-serif;
         text-transform: uppercase;
+    }
+    .portfolio2 h1 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+        padding-top: 4%;
     }
     .pubgzone {
         margin-top: 8%;
         background: white;
         height: 340px;
+        padding: 9%;
     }
     .pubgzone p {
         color: #2bb24c;
         font-size: 0.815rem;
         font-weight: 700;
-        padding-top: 11%;
-        padding-left: 6%;
-        margin-bottom: 1.5rem;
         font-family: sans-serif;
         text-transform: uppercase;
+    }
+    .pubgzone h1 {
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+        padding-top: 4%;
     }
 }
 
@@ -557,5 +568,12 @@ body {
     .head-gif img {
         height: 68%;
         width: 68%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .portfolio1 h1 {
+        padding-left: 0%;
+        margin-left: -1%;
     }
 }
