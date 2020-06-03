@@ -585,6 +585,7 @@ body {
         text-align: center;
         padding-left: 8%;
         padding-right: 8%;
+        padding-bottom: 7%;
     }
     .landingText3 {
         font-size: 1.8rem;
@@ -608,7 +609,7 @@ body {
     }
     .Join img {
         width: 70%;
-        margin-top: 10%;
+        margin-top: 7%;
     }
     .join-p2 {
         color: #333333;
@@ -618,6 +619,27 @@ body {
         color: rgba(0, 0, 0, 0.7);
         font-weight: 400;
         line-height: 1.7rem;
+    }
+    .Join button {
+        user-select: none;
+        transition: background 120ms ease-in 0s;
+        cursor: pointer;
+        display: inline-flex;
+        margin-left: 2%;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        height: 36px;
+        border-radius: 3px;
+        color: white;
+        font-size: 14px;
+        line-height: 1;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-weight: 500;
+        background: rgb(225, 98, 89);
+        border: 1px solid rgb(190, 86, 67);
+        box-shadow: rgba(15, 15, 15, 0.1) 0px 1px 2px;
     }
 }
 
