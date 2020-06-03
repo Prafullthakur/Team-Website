@@ -126,7 +126,6 @@ body {
 }
 
 @media only screen and (max-width: 750px) {
-    .container {}
     .logo-img {
         width: 90px;
         margin-left: 5%;
@@ -244,14 +243,16 @@ body {
         margin-top: 5%;
         margin-bottom: 8%;
     }
-    .page2 .page2-head h1 {
+    .page2-head-txt {
         margin-top: 0px;
         margin-bottom: 0px;
         line-height: 1;
         font-weight: 400;
         text-align: center;
         font-family: 'pacifico';
-        background-color: linear-gradient(to top, #ffe838, #fd57bf);
+        background: linear-gradient(to top, #ffe838, #fd57bf);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         font-size: 2.9rem;
         letter-spacing: -0.025em;
     }
