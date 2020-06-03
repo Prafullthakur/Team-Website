@@ -572,7 +572,7 @@ body {
     }
     .port-last-txt {
         display: inline-block;
-        color: rgba(0, 0, 0, 0.9);
+        color: rgba(0, 0, 0, 0.75);
         font-family: arial;
         margin-left: 0.5rem;
         font-weight: 400;
