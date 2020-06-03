@@ -250,9 +250,6 @@ body {
         font-weight: 400;
         text-align: center;
         font-family: 'pacifico';
-        background: linear-gradient(to top, #ffe838, #fd57bf);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
         font-size: 2.9rem;
         letter-spacing: -0.025em;
     }
