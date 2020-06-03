@@ -351,11 +351,10 @@ body {
         font-family: inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     }
     .horizontal-scroll {
-        margin-top: 10%;
-        margin-bottom: 5%;
-        background-color: white;
-        overflow: auto;
-        white-space: nowrap;
+        padding: 10%;
+        text-align: center;
+        /* overflow: auto;
+        white-space: nowrap;*/
     }
     .scroll-img1 {
         width: 25%;
@@ -369,19 +368,15 @@ body {
         width: 25%;
         height: 25%;
         margin-bottom: 5%;
-        margin-left: 5%;
     }
     .scroll-img4 {
         width: 22.5%;
         height: 22.5%;
-        margin-left: 8%;
     }
     .scroll-img5 {
         width: 15%;
         height: 15%;
-        margin-left: 8%;
         margin-bottom: 4%;
-        margin-right: 5%;
     }
     .scroll-img6 {
         width: 17%;
@@ -391,7 +386,6 @@ body {
     .scroll-img7 {
         width: 13%;
         height: 13%;
-        margin-left: 4%;
         margin-bottom: 4%;
     }
     .dots {
@@ -477,7 +471,7 @@ body {
         text-transform: none;
     }
     .work {
-        margin-top: 30%;
+        margin-top: 20%;
         padding-left: 8%;
         padding-right: 8%;
         text-align: center;
