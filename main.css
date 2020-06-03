@@ -532,7 +532,7 @@ body {
     .port {
         margin-top: 10%;
         text-transform: none;
-        color: rgba(0, 0, 0, 0.6);
+        color: rgba(0, 0, 0, 0.4);
         font-size: 1rem;
         font-weight: 400;
         line-height: 1.7rem;
