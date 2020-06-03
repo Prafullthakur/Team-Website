@@ -488,7 +488,10 @@ body {
         color: #333333;
         font-size: 1.2rem;
         letter-spacing: 0.03;
-        font-family: sans-serif;
+        font-family: arial;
+        color: rgba(0, 0, 0, 0.5);
+        font-weight: 400;
+        line-height: 1.7rem;
     }
     .Projects {
         background: rgba(0, 0, 0, 0.05);
@@ -599,6 +602,9 @@ body {
         font-size: 1.2rem;
         letter-spacing: 0.03;
         font-family: arial;
+        color: rgba(0, 0, 0, 0.5);
+        font-weight: 400;
+        line-height: 1.7rem;
     }
 }
 
