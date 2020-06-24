@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
       rel="stylesheet"
@@ -34,7 +35,7 @@
             <button>HIRE OUR TEAM</button>
         </div>
         <div class="slider">
-            <div class="one">
+            <div class="one" >
                 <div class="slider1">
                     <img src="person1.png">
                 </div>
@@ -42,7 +43,7 @@
                     <a class="achange" href="#" onclick="change1()">WEB</a>
                 </div>
             </div>
-            <div class="two">
+            <div class="two" >
                 <div class="slider2">
                     <img src="person2.png">
                 </div>
@@ -50,7 +51,7 @@
                     <a class="a2" href="#" onclick="change2()">APPS</a>
                 </div>
             </div>
-            <div class="three">
+            <div class="three" >
                 <div class="slider3">
                     <img src="person3.png">
                 </div>
@@ -69,24 +70,24 @@
 
                 </div>
 </section>
-                <div class="dots-content">
+                <div class="dots-content" data-aos="fade-up" data-aos-offset="150">
                     <h2 class="landingText">Any website you can make in<span class="steps-title"><br> 3 simple steps</span></h2>
                     <div class="steps">
-                        <div class="step1">
+                        <div class="step1" data-aos="fade-up" data-aos-offset="150">
                             <div class="circle1">
                                 <img src="one.png">
                             </div>
                             <div class="step1-txt">Find and organize the<br>right sources</div>
                         </div>
-                        <div class="line"></div>
-                        <div class="step2">
-                            <div class="circle2">
+                        <div class="line" data-aos="fade-up" data-aos-offset="150"></div>
+                        <div class="step2" data-aos="fade-up" data-aos-offset="150">
+                            <div class="circle2" >
                                 <img src="two.png">
                             </div>
                             <div class="step1-txt">Gather all the essential<br>technologies</div>
                         </div>
-                        <div class="line"></div>
-                        <div class="step3">
+                        <div class="line" data-aos="fade-up" data-aos-offset="150"></div>
+                        <div class="step3" data-aos="fade-up" data-aos-offset="150">
                             <div class="circle3">
                                 <img src="three.png">
                             </div>
@@ -95,31 +96,31 @@
                     </div>
                 </div>
 
-                <div class="horizontal-heading">
+                <div class="horizontal-heading" data-aos="fade-up" data-aos-offset="150">
                     <h2 class="landingText2">Technologies we use to make <span class="steps-title"><br>Your websites</span></h2>
                 </div>
                 <div class="horizontal-scroll">
-                    <div style="margin-bottom: 25%;">
+                    <div style="margin-bottom: 25%;" data-aos="fade-up" data-aos-offset="200">
                         <img class="scroll-img7" src="html.png">
                         <img class="scroll-img1" src="css.png">
                     </div>
-                    <div style="margin-bottom: 25%;">
+                    <div style="margin-bottom: 25%;" data-aos="fade-up" data-aos-offset="200">
                         <img class="scroll-img6" src="js.png">
                         <img class="scroll-img2" src="angular.png">
                     </div>
-                    <div style="display: block;">
+                    <div style="display: block;" data-aos="fade-up" data-aos-offset="200">
                         <img class="scroll-img3" src="Node.png">
                         <img class="scroll-img4" src="React.webp">
                     </div>
 
                 </div>
-                <div class="work">
+                <div class="work" data-aos="fade-up" data-aos-offset="150">
                     <h2>This is work <span class="steps-title">Junction</span></h2>
                     <p>We have nearly developed all kinds of websites from an easy UI to complex. Even we have made payments website.</p>
                 </div>
                 <div class="Projects">
 
-                    <div class="portfolio2">
+                    <div class="portfolio2" data-aos="zoom-in" data-aos-offset="150">
                         <p class="port-txt">PORTFOLIO WEB</p>
                         <h1>Portfolio</h1>
                         <p class="port">"This is a portfolio website which is developed by Priyansh Vatsal, a member of webnapps. Perfect UI with a lovely combination of colours and resources. It contains every project developed by him"</p>
@@ -130,7 +131,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="portfolio1">
+                    <div class="portfolio1" data-aos="zoom-in" data-aos-offset="150">
                         <p class="port-txt">PORTFOLIO WEB</p>
                         <h1>Prafull Thakur Inc</h1>
                         <p class="port">"This is a portfolio website which is developed by Prafull Thakur, a member of webnapps. This website unique by its design which is simple and great. It contains every project developed by him"</p>
@@ -142,7 +143,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pubgzone">
+                    <div class="pubgzone"  data-aos="zoom-in" data-aos-offset="150">
                         <p class="port-txt">GAMMING WEB</p>
                         <h1>Pubgzone</h1>
                         <p class="port">"This is a gamming website which is developed by Priyansh Vatsal, a member of webnapps. This websites consists everthing from front end to the backend. And it also a paytm integration"</p>
@@ -166,6 +167,16 @@
         </div>
     </div>
     </div>
-    <script src="main.js"></script>
+    <script src="main.js">
+    
+    </script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+
+    </script>
+<script>      AOS.init({
+    offset: 400,
+    duration: 600,
+  });</script>
   </body>
 </html>
