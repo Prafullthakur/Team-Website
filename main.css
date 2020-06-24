@@ -246,6 +246,7 @@ body {
     line-height: 1;
     font-weight: 400;
     text-align: center;
+    color: antiquewhite;
     font-family: "pacifico";
     font-size: 2.9rem;
     letter-spacing: -0.025em;
@@ -255,10 +256,11 @@ body {
     text-align: center;
     font-weight: normal;
     text-align: justify;
+    color: aquamarine;
     font-family: "Karla", sans-serif;
     font-size: 18.5px;
     box-sizing: border-box;
-    color: rgba(0, 0, 0, 0.6);
+
     line-height: 1.5;
     margin-left: 8%;
   }
@@ -330,20 +332,20 @@ body {
     border-bottom: 1.5px solid black;
     padding: 0 0 3px;
     text-decoration: none;
-    color: black;
+    color: antiquewhite;
     -webkit-tap-highlight-color: transparent;
   }
   .a1 {
     text-decoration: none;
-    color: black;
+    color: antiquewhite;
   }
   .a2 {
     text-decoration: none;
-    color: black;
+    color: antiquewhite;
   }
   .a3 {
     text-decoration: none;
-    color: black;
+    color: antiquewhite;
   }
   .slider3-a {
     margin-top: 2%;
